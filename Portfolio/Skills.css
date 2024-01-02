@@ -1,0 +1,105 @@
+#skills{
+  width: 100%;
+  margin: 40px 0px;
+  height: 90vh;
+  position: relative;
+}
+ #skills #heading{
+  /* background-color: black; */
+  width: 100%;
+  padding-left: 10vw;
+}
+ #skills #heading h2 {
+  font-size: 1.5vw;
+  color: white;
+  font-weight: 200;
+  text-shadow: 0px 0px 30px black;
+}
+ #skills #heading h1{
+  font-size: 3vw;  
+  /* color: white; */
+  color: #2eb5b5;
+  font-weight: 400;
+  text-shadow: 0px 0px 30px black;
+
+}
+#skills .box{
+  width: 80%;
+ background-color: white;
+ align-items: center;
+ text-align: center;
+ margin:60px  auto 0px auto;
+  height: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+#skills .box .verticle{
+  height: 120px;
+  background-color: white;
+  width: 1.5px;
+  margin-top: 120px;
+/*  */
+}
+.images{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.verticle-title{
+  margin-top: 115px;
+  width: 20vw;
+  font-size: 1.8vw;
+  text-align: left;
+  color: #2eb5b5;
+  text-shadow: 0px 0px 40px rgb(0, 0, 0);
+  /* filter: drop-shadow(0px 0px 40px rgb(215, 5, 5)) ; */
+}
+.verticle-title h3{
+  color: #2eb5b5;
+  text-shadow: 10px 10px 30px rgb(0, 0, 0);
+  font-weight: 700;
+  -webkit-text-stroke: 0.5px black;
+}
+.verticle-desc{
+  width: 15vw;
+  color: white;
+  text-align: left;
+}
+.verticle-desc p{
+  font-size: 1vw;
+}
+@media (max-width: 768px) {
+  #skills{
+    height: 50vh;
+  }
+
+  .images img{
+    width: 50px !important;
+  }
+  .images .figma{
+    width: 30px !important;
+  }
+  #skills #heading{
+    width: 100%;
+    /* padding-top: 30px; */
+    margin-bottom: -50px;
+  }
+  #skills .box{
+    margin: 60px;
+  }
+  #skills .box .verticle{
+    height: 50px;
+    margin-top: 50px;
+  }
+  .verticle-title{
+    margin-top: 55px;
+  }
+}
